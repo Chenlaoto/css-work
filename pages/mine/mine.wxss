@@ -1,0 +1,110 @@
+/* pages/mine/mine.wxss */
+page {
+    background-color: #f7f7f7;
+}
+.seting {
+    display: flex;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #aaa;
+    align-items: center;
+    background-color: #FF6A6A;
+}
+.setImg {
+    padding-left: 287px;
+    width: 25px;
+    height: 25px;
+}
+/* 头像 */
+.userinfo {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding: 20px;
+    /* height: 100px; */
+    color: #aaa;
+    background-color: #FF6A6A;
+}
+
+.userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    /* margin: 20rpx; */
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    margin-left: 20px;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+/* 我的订单标题 */
+.orderTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 15px;
+    line-height: 40px;
+    background-color: #FFF;
+}
+
+.moreOrder {
+    position: relative;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.right {
+    position: absolute;
+    top: 13px;
+    right: -11px;
+    width: 10px;
+    height: 14px;
+}
+
+/* 四个选项 */
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+.optionLi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opLiImg {
+    width: 30px;
+    height: 30px;
+}
+.opLiName {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+/* 其他选项 */
+.mineLiBox {
+    margin-bottom: 10px;
+}
+.mineli {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: 1px solid #ededed;
+    line-height: 45px;
+    background-color: #FFF;
+}
+.rightIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 10px;
+    height: 14px;
+}
+

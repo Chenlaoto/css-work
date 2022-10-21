@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/flowerType/flowerType",
+        "pages/mine/mine",
+        "pages/cart/cart",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FF6A6A",
+        "navigationBarTitleText": "花物语",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#888888",
+        "selectedColor": "#FF6A6A",
+        "borderStyle": "black",
+        "list": [
+            {
+                "selectedIconPath": "static/tabBar/indexed.png",
+                "iconPath": "static/tabBar/index.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "static/tabBar/flowered.png",
+                "iconPath": "static/tabBar/flower.png",
+                "pagePath": "pages/flowerType/flowerType",
+                "text": "发现"
+            },
+            {
+                "selectedIconPath": "static/tabBar/carted.png",
+                "iconPath": "static/tabBar/cart.png",
+                "pagePath": "pages/cart/cart",
+                "text": "购物车"
+            },
+            {
+                "selectedIconPath": "static/tabBar/mined.png",
+                "iconPath": "static/tabBar/mine.png",
+                "pagePath": "pages/mine/mine",
+                "text": "我的"
+            }
+    ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

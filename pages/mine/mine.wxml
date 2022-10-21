@@ -1,0 +1,55 @@
+<view class="mineBox">
+    <view class="seting">
+        <image class="setImg" src="/static/设置.png" />
+        <view>设置</view>
+    </view>
+    <view class="userinfo">
+        <block wx:if="{{canIUseOpenData}}">
+            <view class="userinfo-avatar" bindtap="bindViewTap">
+                <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <open-data type="userNickName" style="margin-left: 20px;"></open-data>
+        </block>
+        <block wx:elif="{{!hasUserInfo}}">
+            <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+            <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+            <view wx:else> 请使用1.4.4及以上版本基础库 </view>
+        </block>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+    <view class="myOrder">
+        <view class="orderTitle">
+            <view class="title">我的订单</view>
+            <view class="moreOrder">全部订单
+                <image class="right" src="/static/right-icon.png" />
+            </view>
+        </view>
+        <view class="option">
+            <view class="optionLi">
+                <image class="opLiImg" src="/static/待付款.png" />
+                <view class="opLiName">待付款</view>
+            </view>
+            <view class="optionLi">
+                <image class="opLiImg" src="/static/待发货.png" />
+                <view class="opLiName">待发货</view>
+            </view>
+            <view class="optionLi">
+                <image class="opLiImg" src="/static/待收货.png" />
+                <view class="opLiName">待收货</view>
+            </view>
+            <view class="optionLi">
+                <image class="opLiImg" src="/static/待评价.png" />
+                <view class="opLiName">待评价</view>
+            </view>
+        </view>
+    </view>
+    <view class="mineLiBox">
+        <view class="mineli" wx:for="{{mineList}}">{{item}}<image class="rightIcon" src="/static/right-icon.png"/></view>
+    </view>
+    <view class="mineLiBox">
+        <view class="mineli" wx:for="{{elseList}}">{{item}}<image class="rightIcon" src="/static/right-icon.png"/></view>
+    </view>
+</view>

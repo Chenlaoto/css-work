@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="searchBox">
+        <input class="search" type="text" placeholder="搜索当日最新鲜花" />
+        <image class="searchImg" src="/static/搜索.png" />
+    </view>
+    <view class="contentBox" style="margin: 10px;">
+        <swiper autoplay="true" interval="1000" circular="true" indicator-dots="true" indicator-color="white" indicator-active-color="#aabbcc">
+            <swiper-item>
+                <image class="banImg" mode="widthFix" src="/static/banner02.png" />
+            </swiper-item>
+            <swiper-item>
+                <image class="banImg" mode="widthFix" src="/static/banner02.png" />
+            </swiper-item>
+        </swiper>
+        <view class="noticeBox">
+            <image class="noticeImg" src="/static/index/公告.png" style="height: 15px;width: 28px;margin-right: 8px;" />
+            <view class="noticeText">预热接下来的国庆节..</view>
+        </view>
+        <view class="optionBox">
+            <view class="optionLi">
+                <image src="/static/index/love.png" style="height: 43px;width: 43px;padding-bottom: 5px;" />恋爱表白
+            </view>
+            <view class="optionLi">
+                <image src="/static/index/family.png" style="height: 43px;width: 43px;padding-bottom: 5px;" />亲情祝福
+            </view>
+            <view class="optionLi">
+                <image src="/static/index/friend.png" style="height: 43px;width: 43px;padding-bottom: 5px;" />友谊长久
+            </view>
+            <view class="optionLi">
+                <image src="/static/index/gift.png" style="height: 43px;width: 43px;padding-bottom: 5px;" />鲜花礼盒
+            </view>
+        </view>
+        <view class="hotBox">
+            <view style="width: 49%;height: 130px;background-color: #fff;border-radius: 4px;position: relative;color: grey;">
+                <image src="/static/index/flowerBan01.png" style="height: 130px;width: 100%;border-radius: 4px;" />
+                <view class="hotText" style="position: absolute;top: 5px;left: 6px;">新品来袭<view style="font-size: 13px;">每日上新 惊喜不断</view><view>更多<image src="/static/index/双右箭头.png" style="width: 20px;height: 20px;"/></view>
+                </view>
+            </view>
+            <view style="width: 49%;height: 130px;background-color: #fff;border-radius: 4px;position: relative;color: grey;">
+                <image src="/static/index/flowerBan02.png" style="height: 130px;width: 100%;border-radius: 4px;" />
+                <view class="hotText" style="position: absolute;top: 5px;left: 6px;">特价优惠<view style="font-size: 13px;">每日上新 惊喜不断</view><view>更多<image src="/static/index/双右箭头.png" style="width: 20px;height: 20px;"/></view>
+                </view>
+            </view>
+        </view>
+        <view class="minBox">
+            <view class="hot" style="background-color: #fff;padding: 8px;">
+                <image src="/static/index/热门.png" style="width: 18px;height: 18px;margin-right: 4px;" /> 热销榜单
+            </view>
+            <view class="hotBox" style="padding: 8px;background-color: #fff;">
+                <view class="hotLi" style="background-color: #f4f4f4;height: 165px;width: 120px;">
+                    <image src="/static/index/flower01.png" style="width: 115px;height: 115px;" />
+                    //蓝色
+                </view>
+                <view class="hotLi" style="background-color: #f4f4f4;height: 165px;width: 120px;">
+                    <image src="/static/index/flower01.png" style="width: 115px;height: 115px;" />
+                    //蓝色
+                </view>
+            </view>
+        </view>
+        <view class="favoriteBox" style="background-color: #fff;">
+            <view class="loveTitle" style="line-height: 40px;">每日推荐</view>
+        </view>
+    </view>
+
+</view>

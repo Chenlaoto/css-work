@@ -1,0 +1,66 @@
+/**index.wxss**/
+page {
+    background-color: #f7f7f7;
+}
+.searchBox {
+    position: relative;
+    padding: 10px 15px;
+    background-color: #FF6A6A;
+}
+.search {
+    border-radius: 15px;
+    padding-left: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #fff;
+}
+.searchImg {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+    width: 18px;
+    height: 18px;
+}
+swiper { 
+    /* margin: 15px; */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: calc(750rpx * 130/260);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    background-color: #f7f7f7;
+}
+.banImg {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.noticeBox {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 8px 0 8px 8px;
+    background-color: #fff;
+    color: grey;
+    font-size: 14px;
+}
+.optionBox {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    /* height: 100px; */
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+.optionLi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: grey;
+}
+.hotBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

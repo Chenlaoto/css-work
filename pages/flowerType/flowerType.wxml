@@ -1,0 +1,10 @@
+<!--pages/flowerType/flowerType.wxml-->
+<view class="flowerBox" style="margin: 10px;">
+    <view class="flowerLesson" style="height: 150px;background-color: pink;margin-bottom: 10px;">
+        每日鲜花科普
+    </view>
+    <view class="recoverBox" style="background-color: #fff;">
+    花语故事
+    评论
+    </view>
+</view>
