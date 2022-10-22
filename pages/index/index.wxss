@@ -1,6 +1,6 @@
 /**index.wxss**/
 page {
-    background-color: #f7f7f7;
+    background-color: #efeff3;
 }
 .searchBox {
     position: relative;
@@ -11,15 +11,15 @@ page {
     border-radius: 15px;
     padding-left: 30px;
     height: 30px;
-    font-size: 15px;
+    font-size: 12px;
     background-color: #fff;
 }
 .searchImg {
     position: absolute;
-    top: 16px;
+    top: 17px;
     left: 22px;
-    width: 18px;
-    height: 18px;
+    width: 32rpx;
+    height: 32rpx;
 }
 swiper { 
     /* margin: 15px; */

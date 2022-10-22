@@ -6,7 +6,11 @@ Page({
   data: {
     
   },
-  
+  goToSearch() {
+      wx.navigateTo({
+        url: '/pages/index/search/search',
+      })
+  },
   onLoad() {
     
   },

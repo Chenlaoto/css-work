@@ -1,0 +1,18 @@
+<!--pages/index/search/search.wxml-->
+<view class="searchContainer">
+    <view class="searchBox">
+        <input class="search" type="text" placeholder="搜索当日最新鲜花" />
+        <image class="searchImg" src="/static/搜索.png" />
+        <view class="searchText">搜索</view>
+    </view>
+    <view class="searchHistory">
+        <view class="historyTitle">
+            历史搜索
+            <image src="/static/index/delete02.png" class="delect_img"></image>
+        </view>
+        <view class="historyContent">
+        <view class="tip">123</view>
+        </view>
+    </view>
+</view>
+<!-- <text>pages/index/search/search.wxml</text> -->

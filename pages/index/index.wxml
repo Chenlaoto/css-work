@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
     <view class="searchBox">
-        <input class="search" type="text" placeholder="搜索当日最新鲜花" />
+        <input class="search" type="text" placeholder="搜索当日最新鲜花" bindtap="goToSearch"/>
         <image class="searchImg" src="/static/搜索.png" />
     </view>
     <view class="contentBox" style="margin: 10px;">
